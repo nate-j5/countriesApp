@@ -1,4 +1,4 @@
-Hello :) and thanks for viewing this project.
+Thanks for viewing this project.
 
 This project is built using Next.js, Styled Components & the REST Countries API (https://restcountries.com)
 
