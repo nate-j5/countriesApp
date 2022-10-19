@@ -194,7 +194,7 @@ export const Pagination = styled.div`
 
 export const BottomDiv = styled.div`
   display: flex;
-  margin-top: -19%;
+  margin-top: -15%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
