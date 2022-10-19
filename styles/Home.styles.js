@@ -194,7 +194,7 @@ export const Pagination = styled.div`
 
 export const BottomDiv = styled.div`
   display: flex;
-  margin-top: -14%;
+  margin-top: -19%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -212,7 +212,7 @@ export const BottomDiv = styled.div`
     font-weight: 300;
   }
 
-  @media (max-width: 1212px) {
+  @media (max-width: 1270px) {
     margin-top: -19%;
     width: 40%;
     display: flex;
