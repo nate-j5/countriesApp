@@ -22,7 +22,7 @@ import {
 } from "../../styles/Country.styles";
 
 export default function country() {
-  const router = useRouter();
+  const Router = useRouter();
 
   const {
     query: {
@@ -36,7 +36,7 @@ export default function country() {
       car,
       lang,
     },
-  } = router;
+  } = Router;
 
   const props = {
     name,
