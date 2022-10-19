@@ -100,6 +100,7 @@ export default function Home({ countries }) {
                       >
                         <ImgContainer>
                           <img
+                            alt="flag_image"
                             src={country.flags.png}
                             width={50}
                             height={50}
@@ -146,7 +147,7 @@ export default function Home({ countries }) {
             ""
           ) : (
             <BottomDiv>
-              <Image src={city} height={25} width={25}></Image>
+              <Image src={city} height={25} width={25} alt="city_image"></Image>
               <h3 onClick={handleCLick}>View List of Countries</h3>
             </BottomDiv>
           )}

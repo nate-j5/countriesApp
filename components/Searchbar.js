@@ -42,10 +42,10 @@ export default function Searchbar({ placeholder, data }) {
 
             {filteredData.length != 0 && (
               <DataResults>
-                {filteredData.slice(0,2).map((value, key) => {
+                {filteredData.slice(0, 2).map((value, key) => {
                   return (
                     <a
-                    key={value.id}
+                      key={value.id}
                       className="dataItem"
                       onClick={() => {
                         router.push({

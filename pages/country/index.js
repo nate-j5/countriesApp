@@ -58,7 +58,12 @@ export default function Country() {
           <CardContainer>
             <Div1>
               <ImgContainer>
-                <img src={props.img} height={250} width={350}></img>
+                <img
+                  alt="flag_image"
+                  src={props.img}
+                  height={250}
+                  width={350}
+                ></img>
               </ImgContainer>
             </Div1>
             <Div2>
@@ -80,7 +85,12 @@ export default function Country() {
                     <DivCol1A>
                       <DivWrapper>
                         <ImageWrap>
-                          <Image src={city} height={50} width={50}></Image>
+                          <Image
+                            alt="city_image"
+                            src={city}
+                            height={50}
+                            width={50}
+                          ></Image>
                         </ImageWrap>
                         <DivCol1sm>
                           <h3>Capital</h3>
