@@ -21,8 +21,8 @@ import {
   ImageWrap,
 } from "../../styles/Country.styles";
 
-export default function country() {
-  const Router = useRouter();
+export default function Country() {
+  const router = useRouter();
 
   const {
     query: {
@@ -36,7 +36,7 @@ export default function country() {
       car,
       lang,
     },
-  } = Router;
+  } = router;
 
   const props = {
     name,

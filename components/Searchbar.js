@@ -45,6 +45,7 @@ export default function Searchbar({ placeholder, data }) {
                 {filteredData.slice(0,2).map((value, key) => {
                   return (
                     <a
+                    key={value.id}
                       className="dataItem"
                       onClick={() => {
                         router.push({
