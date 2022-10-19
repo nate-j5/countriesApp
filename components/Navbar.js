@@ -1,8 +1,8 @@
 import React from "react";
 import { Div, Wrapper, InnerWrap } from "../styles/Navbar.styles";
 import { useRouter } from "next/dist/client/router";
-import { FiMenu } from "react-icons/Fi";
-import { BsArrowLeft } from "react-icons/Bs";
+import { FiMenu } from "react-icons/fi";
+import { BsArrowLeft } from "react-icons/bs";
 
 export default function Navbar({ toggle, setToggle }) {
   const router = useRouter();

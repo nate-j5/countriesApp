@@ -19,7 +19,7 @@ import {
 import Image from "next/image";
 import city from "../public/img/city.png";
 import ReactPaginate from "react-paginate";
-import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/Io";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 
 export default function Home({ countries }) {
   //  Store list of countries
