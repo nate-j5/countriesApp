@@ -6,7 +6,7 @@ import { BsArrowLeft } from "react-icons/bs";
 
 export default function Navbar({ toggle, setToggle }) {
   const router = useRouter();
-  
+
   const handleClick = () => {
     if (router.pathname === "/country") {
       router.push("/");

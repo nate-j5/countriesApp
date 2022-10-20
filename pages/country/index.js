@@ -100,7 +100,7 @@ export default function Country() {
 
                       <DivWrapper>
                         <ImageWrap>
-                          <Image src={ppl} height={50} width={50}></Image>
+                          <Image alt="ppl_image"src={ppl} height={50} width={50}></Image>
                         </ImageWrap>
                         <DivCol1sm>
                           <h3>Population</h3>
